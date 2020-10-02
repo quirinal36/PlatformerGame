@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"move_script","path":"scripts/move_script/move_script.yy",},"order":3,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
     {"id":{"name":"s_platform","path":"sprites/s_platform/s_platform.yy",},"order":1,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
@@ -13,6 +12,7 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": true,
   "isEcma": false,

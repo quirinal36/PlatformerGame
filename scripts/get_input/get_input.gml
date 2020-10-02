@@ -49,4 +49,25 @@ function get_input(wspd)
 		
 		}
 	}
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 35E56992
+	/// @DnDParent : 0EC79205
+	var l35E56992_0;
+	l35E56992_0 = keyboard_check_pressed(vk_space);
+	if (l35E56992_0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 7C92CD72
+		/// @DnDApplyTo : {o_player}
+		/// @DnDParent : 35E56992
+		/// @DnDArgument : "expr" "true"
+		/// @DnDArgument : "var" "o_player.jump"
+		with(o_player) {
+		o_player.jump = true;
+		
+		}
+	}
 }
