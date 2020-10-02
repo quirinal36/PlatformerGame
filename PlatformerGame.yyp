@@ -2,10 +2,12 @@
   "resources": [
     {"id":{"name":"move_script","path":"scripts/move_script/move_script.yy",},"order":3,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
+    {"id":{"name":"s_platform","path":"sprites/s_platform/s_platform.yy",},"order":1,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
     {"id":{"name":"anim","path":"scripts/anim/anim.yy",},"order":2,},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},"order":1,},
+    {"id":{"name":"o_platform","path":"objects/o_platform/o_platform.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -46,7 +48,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "23.1.1.175",
   },
   "resourceVersion": "1.3",
   "name": "PlatformerGame",
